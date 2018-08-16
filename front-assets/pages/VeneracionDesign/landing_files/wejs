@@ -1,0 +1,1 @@
+document.write( '<script src="https://www.tripadvisor.com.ph/WidgetEmbed-cdsscrollingravewide?border=true&shadow=false&locationId=1046421&display_version=2&uniq=657&lang=en_PH"></script>' );

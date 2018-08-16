@@ -1,0 +1,27 @@
+# Powered by Sitebuilder.ph
+ErrorDocument 401 "Unauthorized"
+ErrorDocument 403 "Forbidden"
+RewriteEngine On
+RewriteBase /
+
+#### PERSISTENT CONTENT ####
+
+
+
+#### PERSISTENT CONTENT END ####
+
+DirectoryIndex index.php index.cgi index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ sitepro/$1 [L,QSA]
+
+
+#### PERSISTENT CONTENT ####
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php70” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php70 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

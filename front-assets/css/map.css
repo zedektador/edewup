@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+a.map-toggle {
+  display: block;
+  position: relative;
+  padding: 30px 0;
+  width: 100%;
+  background-color: #cccc99;
+ 
+  text-align: center;
+  color: #fff;
+  font: normal 22px 'PT Sans Narrow', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.arrow:after {
+  display: block;
+  position: absolute;
+  margin-left: -50px;
+  top: 88px;
+  left: 50%;
+  content: "";
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 30px solid #cccc99;
+  z-index: 999;
+}
+
+.google-map {
+  background-color: #cccc99;
+}
+
+/*
+#map {
+  width: 100%;
+  min-width: 320px;
+  height: 400px;
+} */

@@ -1,0 +1,117 @@
+body {
+	margin: 0 auto;
+	background-image: url('../img/log7.jpg');
+	background-color: #14110f;
+
+}
+
+
+.container {
+	width: 500px;
+	height: 350px;
+	text-align: center;
+	background-color: #201c1a;
+	background-color: #201b18;
+	margin: 250px auto;
+	border-radius: 4px;
+	opacity: .90;
+
+}
+
+.container img {
+	margin-top: -60px;
+	margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"]{
+	height: 35px;
+	width:300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding-left: 30px;
+
+}
+.form-input-username::before {
+	position:absolute;
+	font-family: "FontAwesome";
+	content: "\f007";
+	font-size: 30px;
+	padding-top: 5px;
+	padding-left: 5px;
+
+}
+
+.form-input-password::before {
+	position:absolute;
+	font-family: "FontAwesome";
+	content: "\f023";
+	font-size: 30px;
+	padding-top: 5px;
+	padding-left: 5px;
+
+}
+
+.btn-login {
+	background-color: white;
+
+	cursor: pointer;
+	padding: 15px 30px;
+	font-size: 15px;
+	border: none;
+	border-radius: 4px;
+
+}
+
+p {
+	color:white;
+	font-family: helvetica;
+}
+
+a {
+	color:white;
+	font-family: helvetica;
+	font-style: none;
+}
+
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  
+  display: block;
+  background-image: url('../img/log7.jpg');
+  width: 2048px;
+  height: 1536px;
+  
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.container {
+	width: 90%;
+	height: 350px;
+	text-align: center;
+	background-color: #201c1a;
+	margin: 250px auto;
+	border-radius: 4px;
+
+}
+}

@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+html {
+  font-family: 'Quicksand', 'Open Sans', Helvetica, Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+	margin:0;
+	padding:0;
+  font-family: 'Quicksand', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+header {
+width:100%;
+background-color: #2b2a2a;
+/*background-image: url('../img/header.png');*/
+font-size: 15px;
+
+}
+
+
+img.logo {
+margin: 0 auto;
+display: block;
+}
+
+section {
+width:100%;
+}
+
+
+
+#cpBtn {
+	padding:2px 5px;
+	background: #2b2a2a;
+	border: black;
+	float: right;
+	margin:20px 20px;
+	width:50px;
+	}
+		
+#cpBtn > div {
+	width: 27px;
+	height: 4px;
+	margin: 4px 0px;
+	background: white;
+	border-radius: 10px;
+	cursor: pointer;
+	}
+		
+a {
+	text-decoration:none;
+	color: inherit;
+	}
+
+/*
+
+		
+nav ul {
+
+	overflow: hidden;
+	color: #ffffff;
+	padding: 0px;
+	line-height: 2px;
+	padding-top:40px;
+	text-align: center;
+	margin: 0;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+	}
+		
+nav ul li {
+	display: inline-block;
+	padding: 0px 20px 15px;
+	background-color: #2b2a2a;
+	}
+		
+nav ul li:hover {
+	background-image: url ("../img/b2.png");
+	} */
+
+
+
+#hide_show {
+	background-color: none;
+} 
+
+
+
+#bookingcode {
+	font-size: 20px;
+	width: 170px;
+}
+
+.btncancel {
+	background-color: #ff3b3b;
+	font-size: 20px;
+	border: none;
+}
+
+.btnmodify {
+	background-color: #6ac059;
+	font-size: 20px;
+	border: none;
+}
+		
+.handle {
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	display: none;
+	}
+
+.btnBook {
+	background-color: #14110f;
+	color: white;
+	border:solid 1px white;
+	padding:5px;
+	font-size:17px;
+	position: absolute;
+	top:5%;
+	right:5%;
+
+
+}
+
+
+/* ABOUT */
+
+.about-container {
+	width: 100%;
+	height: auto;
+	background-image: url('../source/img/leather.png');
+	padding: 50px 0px;
+
+}
+
+
+.about-subcon {
+	width: 50%;
+	height: auto;
+	padding: 10px;
+	background-color: white;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+
+	
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.portfolio-container {
+	height: auto;
+	background-color: white;
+	padding: 50px 0px;
+
+}
+
+.portfolio-subcon {
+	width: 90%;
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+
+}
+
+/* IMAGE LIST 
+
+	ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height:250px;
+  margin: 0px;
+  position: relative;
+  width:250px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  height:250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width:250px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height:250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width:250px;
+  opacity: 0;
+  font-size: 40px;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height:250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width:250px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+		 */
+@media screen and (max-width: 640px) {
+	header, section, footer {
+		width:100%
+	}
+	/*
+	nav ul {
+		max-height: 0;
+	}
+			
+	.showing {
+		max-height: 20em;
+	}
+		
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+		color:white;
+	}	
+	.handle {
+		display: block;
+		top: 5%;
+	} */
+
+	
+
+	img.logo {
+		display: block;
+	margin: 0 auto;
+
+	}
+
+	
+
+	.about-subcon {
+		width: 80%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width:960px) {
+	 header, section, footer {
+		width:100%
+	}
+
+	.about-subcon {
+		width: 70%;
+		height: auto;
+	}
+}

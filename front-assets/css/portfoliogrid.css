@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Sarala:400,700);
+
+.wrapper{font-size:0;}/*for inline block spacing*/
+body{font-family:Sarala; background:#444;}
+
+a.pg{
+  display:inline-block;
+  width:25%;
+  height:30vh;
+  position:relative;
+}
+
+a img {
+  height:100%; 
+  width:100%;
+  object-fit:cover;}
+
+a.pg:before, a.pg:after{
+  width:100%;
+  position:absolute;
+  opacity:0;
+  transition:opacity 0.3s ease;
+
+}
+
+a.pg:before{
+  content:'';
+  height:100%;
+  background:rgba(0,0,0,0.5);
+}
+
+a.pg:after{
+  content:attr(data-title);
+  font-size:24px;
+  top:calc(50% - 0.5em);
+  left:0;
+  text-align:center;
+  color:#fff;
+  text-transform:uppercase;
+}
+
+a.pg:hover:before, a.pg:hover:after{
+  opacity:1;
+}
+
+
+
+@media (max-width:650px){
+a.pg{
+  width:50%;
+  height:30vh;
+}
+}
+
+@media (max-width:480px){
+a.pg{
+  width:100%;
+}
+
+}

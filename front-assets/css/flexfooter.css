@@ -1,0 +1,70 @@
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #fafafa;
+  color: #1b1d20;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 100%;
+  line-height: 1.75;
+  margin: 0;
+  min-height: 100%;
+}
+
+.site__content {
+  flex-grow: 1;
+}
+
+.site__main {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.site__footer {
+  background-color: #1b1d20;
+  color: #fafafa;
+  padding-bottom: 0.5em;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0.5em;
+}
